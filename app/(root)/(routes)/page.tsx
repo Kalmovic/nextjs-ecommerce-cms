@@ -1,9 +1,8 @@
 "use client";
 import { useEffect } from "react";
 import { useStoreModal } from "@/hooks/use-store-modal";
-import { UserButton } from "@clerk/nextjs";
 
-export default function Home() {
+export default function SetupPage() {
   const onOpen = useStoreModal((state) => state.onOpen);
   const isOpen = useStoreModal((state) => state.isOpen);
 
@@ -13,9 +12,5 @@ export default function Home() {
     }
   }, [isOpen, onOpen]);
 
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <UserButton afterSignOutUrl="/" />
-    </main>
-  );
+  return null;
 }
