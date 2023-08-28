@@ -97,7 +97,7 @@ function CategoryForm({ initialData, billboards }: CategoryFormProps) {
       toast.success("Category deleted successfully");
     } catch (error) {
       toast.error(
-        "Make sure you have all products using this Category deleted first."
+        "Make sure you have all products using this Category removed first."
       );
       console.error(error);
     } finally {

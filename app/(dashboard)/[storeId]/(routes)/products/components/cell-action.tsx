@@ -33,9 +33,7 @@ function CellAction({ data }: { data: ProductColumnType }) {
       setIsDeleteModalOpen(false);
       toast.success("product deleted successfully");
     } catch (error) {
-      toast.error(
-        "Make sure you have all categories using this product first."
-      );
+      toast.error("Something went wrong.");
       console.error(error);
     } finally {
       setIsDeleting(false);

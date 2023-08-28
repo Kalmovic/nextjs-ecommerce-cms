@@ -33,7 +33,9 @@ function CellAction({ data }: { data: SizesColumnType }) {
       setIsDeleteModalOpen(false);
       toast.success("size deleted successfully");
     } catch (error) {
-      toast.error("Make sure you have all categories using this size first.");
+      toast.error(
+        "Make sure you have all categories using this size removed first."
+      );
       console.error(error);
     } finally {
       setIsDeleting(false);

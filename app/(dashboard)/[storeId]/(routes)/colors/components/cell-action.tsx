@@ -33,7 +33,9 @@ function CellAction({ data }: { data: ColorsColumnType }) {
       setIsDeleteModalOpen(false);
       toast.success("Color deleted successfully");
     } catch (error) {
-      toast.error("Make sure you have all categories using this color first.");
+      toast.error(
+        "Make sure you have all products using this color removed first."
+      );
       console.error(error);
     } finally {
       setIsDeleting(false);

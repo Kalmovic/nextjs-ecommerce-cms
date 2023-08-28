@@ -35,7 +35,7 @@ function CellAction({ data }: { data: BillboardColumn }) {
       toast.success("Billboard deleted successfully");
     } catch (error) {
       toast.error(
-        "Make sure you have all categories using this billboard first."
+        "Make sure you have all categories using this billboard removed first."
       );
       console.error(error);
     } finally {
