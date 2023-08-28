@@ -34,7 +34,7 @@ async function OrdersPage({
       phone: order.phone,
       address: order.address,
       products: order.orderItems
-        .map((orderItem) => orderItem.product)
+        .map((orderItem) => orderItem.product.name)
         .join(", "),
       totalPrice: priceFormatter.format(
         order.orderItems.reduce(
