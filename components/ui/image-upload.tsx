@@ -46,7 +46,10 @@ function ImageUpload({ disabled, onChange, onRemove, file }: ImageUploadProps) {
           </div>
         ))}
       </div>
-      <CldUploadWidget onUpload={onUpload} uploadPreset="xhuqbc6r">
+      <CldUploadWidget
+        onUpload={onUpload}
+        uploadPreset={process.env.NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET}
+      >
         {({ open }) => {
           const onClick = () => {
             open();
