@@ -4,7 +4,13 @@
 
 
 
-https://github.com/Kalmovic/nextjs-ecommerce-cms/assets/42631135/bb8f7ff0-44e0-43b0-be9f-ae3a662e2138
+
+https://github.com/Kalmovic/nextjs-ecommerce-cms/assets/42631135/0e483b55-f0ac-4c39-b6ed-7b2082800375
+
+
+
+![image](https://github.com/Kalmovic/nextjs-ecommerce-cms/assets/42631135/7616c88a-42e6-4550-9abc-d3bff990ef6c)
+
 
 
 
