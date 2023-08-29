@@ -3,7 +3,10 @@
 ## Media
 
 
-https://github.com/Kalmovic/nextjs-ecommerce-store/assets/42631135/a0092f3e-c494-416d-8bcb-e9d94ab9b314
+
+https://github.com/Kalmovic/nextjs-ecommerce-cms/assets/42631135/bb8f7ff0-44e0-43b0-be9f-ae3a662e2138
+
+
 
 ### Stack
 - NextJS 13 (Server Components)
